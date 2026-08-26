@@ -1,0 +1,32 @@
+{
+  "mission_steps": 260,
+  "failed_uuv": 1,
+  "physical_failure_time": 70,
+  "fault_confirmed": true,
+  "majority_confirmation_time": 232,
+  "detection_delay": 162,
+  "false_positives": 0,
+  "orphan_task": {
+    "candidate_id": 22,
+    "x": 162,
+    "y": 169,
+    "distance_px": 570.6505060017033,
+    "info_ratio": 0.58575439453125,
+    "redundancy_ratio": 0.41424560546875,
+    "utility": 0.37184621023555636
+  },
+  "orphan_source": "generated_safe_frontier",
+  "orphan_successor": 2,
+  "orphan_completed": true,
+  "completion_time": 243,
+  "total_recovery_delay": 173,
+  "failed_displacement_px": 0.0,
+  "final_coverage": 0.9843417732466448,
+  "resources_discovered": 10,
+  "resources_total": 11,
+  "healthy_motion_steps_after_failure": 189,
+  "safety_overrides": 29,
+  "minimum_separation_px": 130.034610777285,
+  "allocation_rounds": 58,
+  "goal_changes": 176
+}

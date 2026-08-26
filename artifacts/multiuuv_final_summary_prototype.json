@@ -1,0 +1,105 @@
+{
+  "project": "MultiUUV-Link",
+  "prototype_status": "validated_research_prototype",
+  "architecture": {
+    "agents": 4,
+    "local_fov_pixels": [
+      128,
+      128
+    ],
+    "motion_step_pixels": 32,
+    "safe_separation_pixels": 128.0,
+    "communication_range_pixels": 400.0,
+    "packet_loss_probability": 0.25,
+    "communication_delay_range": [
+      1,
+      5
+    ],
+    "blackout_start_probability": 0.02
+  },
+  "learned_model": {
+    "test_mse": 5.973909537715372e-06,
+    "test_mae": 0.0018146737711504102,
+    "test_r2": 0.9999339298806628,
+    "test_pearson": 0.9999679198164284,
+    "test_spearman": 0.999954983132577,
+    "top1_agreement": 0.9583333333333334,
+    "model_parameters": 1313
+  },
+  "controllers": [
+    {
+      "controller": "Classical",
+      "final_coverage_mean_pct": 97.41932735060998,
+      "final_coverage_std_pct": 1.4791800353533002,
+      "coverage_auc_mean": 15888.997207044962,
+      "redundancy_mean": 0.2463733663054437,
+      "redundancy_std": 0.042317211760799216,
+      "hold_mean": 55.4,
+      "safety_override_mean": 54.2,
+      "goal_changes_mean": 48.8,
+      "min_separation_mean_px": 134.70982384062944
+    },
+    {
+      "controller": "Learned",
+      "final_coverage_mean_pct": 96.82283558702929,
+      "final_coverage_std_pct": 2.148018690849424,
+      "coverage_auc_mean": 15678.247789546513,
+      "redundancy_mean": 0.2867744401366824,
+      "redundancy_std": 0.04110492807827982,
+      "hold_mean": 42.6,
+      "safety_override_mean": 28.4,
+      "goal_changes_mean": 117.2,
+      "min_separation_mean_px": 130.37056661036428
+    },
+    {
+      "controller": "Hybrid",
+      "final_coverage_mean_pct": 98.62558886073889,
+      "final_coverage_std_pct": 0.5212473028554951,
+      "coverage_auc_mean": 16006.523038063551,
+      "redundancy_mean": 0.23365695542120052,
+      "redundancy_std": 0.01724989746297168,
+      "hold_mean": 56.0,
+      "safety_override_mean": 32.2,
+      "goal_changes_mean": 119.8,
+      "min_separation_mean_px": 130.43966532193875
+    }
+  ],
+  "hybrid_authority": {
+    "learned_agreements": 792,
+    "learned_overrides": 4,
+    "classical_fallbacks": 60,
+    "total_decisions": 856,
+    "learned_authorized_fraction": 0.9299065420560748
+  },
+  "fault_recovery_showcase": {
+    "mission_steps": 260,
+    "failed_uuv": 1,
+    "physical_failure_time": 70,
+    "majority_confirmation_time": 169,
+    "detection_delay": 99,
+    "orphan_source": "generated_safe_frontier",
+    "orphan_goal_x": 421,
+    "orphan_goal_y": 261,
+    "recovery_uuv": 0,
+    "completion_time": 192,
+    "total_recovery_delay": 122,
+    "failed_displacement_px": 0.0,
+    "final_coverage_pct": 96.8154462114506,
+    "resources_discovered": 10,
+    "resources_total": 10,
+    "safety_overrides": 25,
+    "minimum_separation_px": 131.51805959639154
+  },
+  "scientific_interpretation": {
+    "learned_model_role": "The PyTorch model learns frontier-value ranking from classical supervision.",
+    "closed_loop_result": "Fully learned ranking did not consistently outperform the classical planner across matched stochastic communication seeds.",
+    "final_architecture_choice": "Confidence-gated hybrid planning retains the learned model while using classical fallbacks to bound ranking error."
+  },
+  "artifacts": {
+    "normal_mission_gif": "/home/aymisxx/Documents/MultiUUV-Link/artifacts/multiuuv_hybrid_mission_prototype.gif",
+    "fault_recovery_gif": "/home/aymisxx/Documents/MultiUUV-Link/artifacts/multiuuv_fault_recovery_showcase_prototype.gif",
+    "metrics_csv": "/home/aymisxx/Documents/MultiUUV-Link/artifacts/multiuuv_final_metrics_prototype.csv",
+    "summary_json": "/home/aymisxx/Documents/MultiUUV-Link/artifacts/multiuuv_final_summary_prototype.json",
+    "model": "/home/aymisxx/Documents/MultiUUV-Link/artifacts/frontier_value_model_prototype.pt"
+  }
+}

@@ -1,0 +1,419 @@
+PEACOCK DYNAMICS PROPRIETARY LICENSE
+Version 1.0
+
+Copyright (c) 2026-present Peacock Dynamics.
+All rights reserved.
+
+1. DEFINITIONS
+
+"Peacock Dynamics" means the copyright holder, proprietor, and/or
+authorized licensor of the Work.
+
+"Work" means the software, source code, object code, documentation,
+algorithms, designs, models, configurations, data, images, media,
+assets, demonstrations, technical materials, and other materials
+contained in or distributed with a Peacock Dynamics project or
+repository, except for separately identified third-party materials.
+
+"You" or "Your" means any individual, company, organization,
+institution, government body, research organization, or other legal
+or natural person accessing or seeking to use the Work.
+
+"Use" includes, without limitation, execution, copying, reproduction,
+modification, adaptation, integration, redistribution, publication,
+deployment, commercialization, sublicensing, incorporation into
+another work, or creation of derivative works.
+
+2. PROPRIETARY STATUS
+
+The Work is proprietary material of Peacock Dynamics.
+
+The availability of the Work in a publicly accessible repository,
+website, demonstration, archive, or other location does not constitute
+an open-source release and does not grant any general license to use
+the Work.
+
+Except for rights expressly granted in writing by Peacock Dynamics,
+all rights in and to the Work are reserved.
+
+3. NO GENERAL LICENSE
+
+No license or permission is granted under this License to use, copy,
+reproduce, modify, adapt, translate, publish, distribute, redistribute,
+sublicense, sell, rent, lease, commercialize, deploy, incorporate,
+or create derivative works from the Work.
+
+Any such activity requires prior written authorization from
+Peacock Dynamics.
+
+Possession of, access to, or visibility of the Work shall not be
+interpreted as permission to use the Work.
+
+4. VIEWING AND EVALUATION
+
+Where Peacock Dynamics makes source code or other materials publicly
+accessible, You may inspect those materials for informational and
+evaluation purposes to the extent permitted by the platform through
+which they are provided.
+
+Such inspection does not grant permission to independently use,
+execute, reproduce, modify, redistribute, deploy, commercialize,
+or otherwise exploit the Work.
+
+Technical copies created automatically by browsers, hosting
+platforms, caching systems, or similar infrastructure solely for
+display or access do not constitute a broader license from
+Peacock Dynamics.
+
+5. PERMISSION REQUIRED
+
+Any use of the Work requires prior written authorization from
+Peacock Dynamics.
+
+Requests for authorization may be approved or denied at the sole
+discretion of Peacock Dynamics.
+
+Peacock Dynamics may provide authorization under terms determined
+on a case-by-case basis, including, without limitation:
+
+(a) paid commercial licenses;
+
+(b) non-commercial licenses;
+
+(c) academic or research licenses;
+
+(d) evaluation licenses;
+
+(e) limited-purpose licenses;
+
+(f) technology-transfer agreements;
+
+(g) development or integration agreements;
+
+(h) source-code licenses;
+
+(i) deployment licenses; or
+
+(j) other separately negotiated agreements.
+
+Peacock Dynamics is under no obligation to grant permission merely
+because permission has been requested.
+
+6. COMMERCIAL USE
+
+Commercial use of the Work is prohibited unless expressly authorized
+in writing by Peacock Dynamics.
+
+Commercial use includes, without limitation:
+
+(a) incorporation into any product or service offered for sale;
+
+(b) incorporation into commercial software or hardware;
+
+(c) internal use supporting commercial operations;
+
+(d) use in paid consulting, contracting, engineering, or development
+services;
+
+(e) use in commercial research and development;
+
+(f) deployment in revenue-generating operations;
+
+(g) resale, licensing, or sublicensing;
+
+(h) commercialization of derivative technology; and
+
+(i) any other use intended primarily to obtain direct or indirect
+commercial advantage.
+
+Peacock Dynamics may require payment, royalties, licensing fees,
+revenue sharing, or other consideration as a condition of commercial
+authorization.
+
+7. ACADEMIC, EDUCATIONAL, AND RESEARCH USE
+
+Academic, educational, research, nonprofit, or personal status does
+not automatically grant permission to use the Work.
+
+Universities, students, researchers, laboratories, nonprofit
+organizations, educational institutions, and similar parties must
+obtain prior written authorization from Peacock Dynamics before using
+the Work beyond ordinary inspection.
+
+Peacock Dynamics may grant academic, educational, or research
+permissions under separate terms.
+
+8. MODIFICATION AND DERIVATIVE WORKS
+
+No permission is granted to modify, adapt, translate, port, extend,
+rewrite, transform, or create derivative works based upon the Work
+without prior written authorization from Peacock Dynamics.
+
+No permission is granted to distribute or commercialize modified
+versions of the Work.
+
+Nothing in this section restricts independent use of ideas,
+mathematical principles, facts, or other subject matter that is not
+protected by applicable intellectual-property law.
+
+9. REDISTRIBUTION
+
+The Work may not be redistributed, mirrored, republished, uploaded,
+shared, transferred, bundled, packaged, or otherwise provided to a
+third party without prior written authorization from Peacock Dynamics.
+
+This prohibition applies to the Work in whole or in substantial part,
+whether modified or unmodified and whether distributed in source,
+binary, compiled, rendered, or other form.
+
+10. SUBLICENSING AND TRANSFER
+
+No rights obtained from Peacock Dynamics may be sublicensed,
+assigned, transferred, sold, or otherwise conveyed to another person
+or entity unless Peacock Dynamics expressly authorizes such transfer
+in writing.
+
+Authorization granted to one party does not automatically extend to
+its affiliates, customers, contractors, partners, subsidiaries,
+employees, clients, or other third parties unless expressly stated.
+
+11. ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING
+
+Unless expressly authorized in writing by Peacock Dynamics, the Work
+may not be used for the development, training, fine-tuning,
+evaluation, improvement, or augmentation of artificial intelligence
+or machine-learning systems.
+
+Prohibited uses include, without limitation, inclusion of the Work in:
+
+(a) machine-learning training datasets;
+
+(b) code-generation datasets;
+
+(c) fine-tuning datasets;
+
+(d) reinforcement-learning datasets;
+
+(e) evaluation or benchmarking datasets;
+
+(f) retrieval or embedding databases intended for model development;
+
+(g) synthetic-data generation pipelines; or
+
+(h) datasets or corpora redistributed for artificial-intelligence
+development.
+
+This restriction does not prohibit technical indexing or processing
+performed solely by a repository-hosting platform as necessary to
+provide its ordinary hosting services.
+
+12. OWNERSHIP
+
+Except for separately identified third-party materials, all applicable
+copyright and other intellectual-property rights in the Work remain
+with Peacock Dynamics and/or the applicable lawful copyright holder.
+
+No sale, disclosure, distribution, possession, authorization, or
+license transfers ownership of the Work unless a separate written
+agreement expressly provides for such transfer.
+
+All rights not expressly granted are reserved.
+
+13. COPYRIGHT AND PROPRIETARY NOTICES
+
+No copyright notice, attribution notice, proprietary notice,
+authorship notice, trademark notice, or other ownership identifier
+contained in the Work may be removed, obscured, altered, or
+misrepresented without prior written authorization from Peacock
+Dynamics.
+
+14. PATENTS
+
+No patent license is granted under this License.
+
+Access to or possession of the Work shall not be interpreted as
+granting any right, whether by implication, estoppel, exhaustion, or
+otherwise, under any patent or patent application owned, controlled,
+or licensable by Peacock Dynamics or any contributor.
+
+Any patent rights associated with an authorized use must be expressly
+granted under a separate written agreement.
+
+15. TRADEMARKS AND BRANDING
+
+This License grants no right to use the Peacock Dynamics name, logos,
+trademarks, service marks, project names, product names, trade dress,
+visual identity, or other branding elements except as reasonably
+necessary to identify Peacock Dynamics as the source of the Work.
+
+No person or entity may imply endorsement, sponsorship, partnership,
+certification, association, or affiliation with Peacock Dynamics
+without prior written authorization.
+
+A license to use the Work does not automatically include a license
+to use Peacock Dynamics trademarks or branding.
+
+16. THIRD-PARTY MATERIALS
+
+The Work may contain, depend upon, interface with, reference, or
+otherwise make use of third-party software, libraries, frameworks,
+datasets, models, media, or other materials.
+
+Such third-party materials remain governed by their respective
+licenses and ownership terms.
+
+This License applies only to rights that Peacock Dynamics is legally
+entitled to grant.
+
+Nothing in this License limits rights independently granted by the
+lawful owner of a third-party component.
+
+17. CONTRIBUTIONS
+
+Submission of code, documentation, patches, pull requests, designs,
+suggestions, issue reports, or other materials to Peacock Dynamics
+does not grant the contributor any license to unrelated Peacock
+Dynamics intellectual property.
+
+Contributors are responsible for ensuring that they possess sufficient
+rights to submit their contributions.
+
+Peacock Dynamics may establish separate contribution terms or
+agreements for individual projects.
+
+18. SAFETY-CRITICAL AND OPERATIONAL USE
+
+Unless expressly authorized under a separate written agreement, the
+Work is not represented, certified, or warranted as suitable for
+safety-critical or mission-critical applications.
+
+This includes, without limitation:
+
+(a) production autonomous vehicles;
+
+(b) production robotic systems;
+
+(c) aviation systems;
+
+(d) maritime navigation systems;
+
+(e) medical systems;
+
+(f) life-support systems;
+
+(g) industrial safety systems;
+
+(h) weapons systems; and
+
+(i) systems in which malfunction could reasonably result in death,
+personal injury, environmental damage, or substantial property damage.
+
+Any experimental software, simulator, model, control algorithm,
+perception system, or research result must be independently validated
+before operational deployment.
+
+19. NO WARRANTY
+
+THE WORK IS PROVIDED "AS IS" AND "AS AVAILABLE."
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, PEACOCK DYNAMICS
+AND ANY CONTRIBUTORS DISCLAIM ALL WARRANTIES, WHETHER EXPRESS,
+IMPLIED, STATUTORY, OR OTHERWISE, INCLUDING, WITHOUT LIMITATION,
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
+TITLE, NON-INFRINGEMENT, ACCURACY, RELIABILITY, SECURITY, PERFORMANCE,
+AND FITNESS FOR SAFETY-CRITICAL USE.
+
+NO INFORMATION, DOCUMENTATION, DEMONSTRATION, COMMUNICATION, OR
+TECHNICAL MATERIAL PROVIDED BY PEACOCK DYNAMICS CREATES A WARRANTY
+UNLESS EXPRESSLY PROVIDED IN A SEPARATE WRITTEN AGREEMENT.
+
+20. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, PEACOCK DYNAMICS,
+ITS OWNERS, DEVELOPERS, CONTRIBUTORS, AFFILIATES, AND AUTHORIZED
+REPRESENTATIVES SHALL NOT BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, PUNITIVE, OR CONSEQUENTIAL DAMAGES
+ARISING FROM OR RELATING TO ACCESS TO, AUTHORIZED USE OF, UNAUTHORIZED
+USE OF, RELIANCE UPON, OR INABILITY TO USE THE WORK.
+
+THIS INCLUDES, WITHOUT LIMITATION, DAMAGES ARISING FROM LOSS OF DATA,
+LOSS OF REVENUE, LOSS OF PROFITS, BUSINESS INTERRUPTION, EQUIPMENT
+DAMAGE, SOFTWARE FAILURE, SYSTEM FAILURE, RESEARCH LOSS, OPERATIONAL
+FAILURE, PHYSICAL DAMAGE, OR PERSONAL INJURY, EXCEPT WHERE SUCH
+LIABILITY CANNOT LAWFULLY BE EXCLUDED.
+
+21. UNAUTHORIZED USE
+
+Any use of the Work beyond rights expressly granted by Peacock
+Dynamics in writing is unauthorized.
+
+Peacock Dynamics reserves all rights and remedies available under
+applicable copyright, patent, trademark, contract, trade-secret, and
+other laws.
+
+Failure by Peacock Dynamics to enforce any right in a particular
+instance does not constitute a waiver of that right.
+
+22. SEPARATE LICENSE AGREEMENTS
+
+Peacock Dynamics may enter into separate written agreements granting
+rights not granted under this License.
+
+Where a valid separate written agreement between Peacock Dynamics
+and an authorized party conflicts with this License, that separate
+agreement governs the rights expressly granted under it.
+
+23. PROJECT-SPECIFIC TERMS
+
+Individual Peacock Dynamics projects may contain project-specific
+licensing terms.
+
+If a project expressly states in writing that another license or
+agreement supersedes this License, that project-specific agreement
+shall govern.
+
+Otherwise, this Peacock Dynamics Proprietary License applies.
+
+24. LICENSING REQUESTS
+
+Any party wishing to use the Work must obtain authorization from
+Peacock Dynamics before doing so.
+
+A licensing request should identify, where applicable:
+
+(a) the Peacock Dynamics project concerned;
+
+(b) the requesting individual or organization;
+
+(c) the intended purpose;
+
+(d) whether the proposed use is commercial, academic, research,
+personal, governmental, or otherwise;
+
+(e) whether modification is required;
+
+(f) whether redistribution is required;
+
+(g) whether deployment is intended; and
+
+(h) any other information reasonably necessary for Peacock Dynamics
+to evaluate the request.
+
+No permission exists until Peacock Dynamics expressly grants it in
+writing.
+
+25. ENTIRE LICENSE
+
+This License describes the default rights associated with proprietary
+Peacock Dynamics Work in the absence of a separate written agreement.
+
+No verbal statement, informal discussion, repository access,
+demonstration, disclosure, correspondence, or course of conduct shall
+create rights inconsistent with this License unless Peacock Dynamics
+expressly agrees otherwise in writing.
+
+END OF PEACOCK DYNAMICS PROPRIETARY LICENSE
+Version 1.0
+
+Copyright (c) 2026-present Peacock Dynamics.
+All rights reserved.
