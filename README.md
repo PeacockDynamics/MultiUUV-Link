@@ -221,11 +221,7 @@ The notebook used incremental Markdown-plus-code development units so that every
 
 Let the two-dimensional operating domain be
 
-$$
-\Omega
-=
-\{(x,y)\mid 0\le x<W,\;0\le y<H\},
-$$
+`Omega = {(x,y) | 0 <= x < W, 0 <= y < H}`
 
 where $W$ and $H$ are the map width and height.
 
@@ -306,21 +302,11 @@ $$
 
 the displacement vectors are
 
-$$
-u_0=\begin{bmatrix}0\\-\Delta\end{bmatrix},\quad
-u_1=\begin{bmatrix}\Delta\\0\end{bmatrix},\quad
-u_2=\begin{bmatrix}0\\\Delta\end{bmatrix},\quad
-u_3=\begin{bmatrix}-\Delta\\0\end{bmatrix}.
-$$
+`u_0 = [0, -Delta],   u_1 = [Delta, 0],   u_2 = [0, Delta],   u_3 = [-Delta, 0]`
 
 The next state is
 
-$$
-p_i(t+1)
-=
-\operatorname{Clamp}
-\left(p_i(t)+u_{a_i(t)},\Omega\right).
-$$
+`p_i(t+1) = Clamp(p_i(t) + u_{a_i(t)}, Omega)`
 
 An additional `HOLD` action exists only inside the predictive safety layer. It is not part of the normal exploration policy.
 
@@ -330,9 +316,7 @@ An additional `HOLD` action exists only inside the predictive safety layer. It i
 
 Each UUV observes only a bounded local Field of View:
 
-$$
-o_i(t)=\operatorname{Crop}(I,p_i(t),FOV_i).
-$$
+`o_i(t) = Crop(I, p_i(t), FOV_i)`
 
 The validated FOV size is
 
@@ -406,29 +390,17 @@ The simulator possesses full world truth $K_{\text{world}}$, but UUV $i$ may kno
 
 The knowledge update is
 
-$$
-K_i(t+1)
-=
-K_i(t)
-\cup O_i(t)
-\cup C_i(t),
-$$
+`K_i(t+1) = K_i(t) U O_i(t) U C_i(t)`
 
 where $O_i(t)$ is newly observed information and $C_i(t)$ is successfully received communication.
 
 Private exploration memory evolves monotonically:
 
-$$
-M_i(t+1)
-=
-M_i(t)\cup FOV_i(t).
-$$
+`M_i(t+1) = M_i(t) U FOV_i(t)`
 
 In general,
 
-$$
-M_i(t)\neq M_j(t),\qquad i\neq j.
-$$
+`M_i(t) != M_j(t),    i != j`
 
 Communication can increase what an agent knows, but it does not retroactively transform another agent's locally observed map into its own local experience. The implementation therefore distinguishes **local exploration memory** from **total known exploration information**.
 
@@ -440,21 +412,13 @@ A frontier is the boundary between observed and unobserved space in an agent's a
 
 For candidate frontier goal $g$, the classical utility is
 
-$$
-J_i(g)
-=
-w_I I_i(g)
--
-w_D D_i(g)
--
-w_R R_i(g),
-$$
+`J_i(g) = w_I I_i(g) - w_D D_i(g) - w_R R_i(g)`
 
 where:
 
-- $I_i(g)$ is estimated information gain;
-- $D_i(g)$ is normalized travel distance;
-- $R_i(g)$ is estimated redundancy.
+- I_i(g) is estimated information gain;
+- D_i(g) is normalized travel distance;
+- R_i(g) is estimated redundancy.
 
 The validated weights are
 
@@ -758,21 +722,11 @@ For the same ordered candidate set, the Classical and Learned rankers select the
 
 If they disagree, define the learned confidence margin as the difference between the highest and second-highest learned utility values:
 
-$$
-m_{learned}
-=
-\hat J_{(1)}-\hat J_{(2)}.
-$$
+`m_learned = J_hat_(1) - J_hat_(2)`
 
 Define classical regret for selecting the learned-preferred candidate as
 
-$$
-r_{classical}
-=
-J_{classical}^{best}
--
-J_{classical}(g_{learned}).
-$$
+`r_classical = J_classical^best - J_classical(g_learned)`
 
 A learned override is authorized only if
 
