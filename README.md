@@ -2,7 +2,6 @@
 
 ![Version](https://img.shields.io/badge/version-v0.1.0-blue)
 ![Python](https://img.shields.io/badge/python-%3E%3D3.10-blue)
-![PyTorch](https://img.shields.io/badge/PyTorch-learned%20frontier%20advisor-orange)
 ![Status](https://img.shields.io/badge/status-validated%20research%20prototype-success)
 ![License](https://img.shields.io/badge/license-Peacock%20Dynamics%20Proprietary-red)
 
